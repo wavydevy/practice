@@ -6,6 +6,7 @@ from geopy import distance
 import folium
 from flask import Flask
 
+
 def get_distance_from(current_list):
     return current_list['distance']
 
