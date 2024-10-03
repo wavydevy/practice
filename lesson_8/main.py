@@ -46,7 +46,6 @@ def main():
     user_coordinates = fetch_coordinates(apikey, user_location)
     user_longitude, user_latitude = user_coordinates
     user_coordinates = (user_latitude, user_longitude)
-    print(f'Ваши координаты:{user_coordinates}')
 
     database = []
     for content in contents:
